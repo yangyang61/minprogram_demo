@@ -1,0 +1,59 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/pay/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "开心购物",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#8c8c8c",
+    "selectedColor": "#ff5453",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/_home.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "",
+        "iconPath": "icons/category.png",
+        "selectedIconPath": "icons/_category.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "",
+        "iconPath": "icons/cart.png",
+        "selectedIconPath": "icons/_cart.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "",
+        "iconPath": "icons/mine.png",
+        "selectedIconPath": "icons/_mine.png"
+      }
+    ]
+  },
+  
+    
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
